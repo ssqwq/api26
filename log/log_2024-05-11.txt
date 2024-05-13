@@ -1,0 +1,250 @@
+[2024-05-11 10:10:28] INFO [run: run_all.py, 12] ============测试开始=============
+[2024-05-11 10:10:28] INFO [send_requset: basecase.py, 90] post json data
+[2024-05-11 10:10:28] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:29] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:29] INFO [log_case_info: case_log.py, 15] 测试用例: login_err_01
+[2024-05-11 10:10:29] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/user/login
+[2024-05-11 10:10:29] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName":"t", "password":"123456", "remember": false}
+[2024-05-11 10:10:29] INFO [log_case_info: case_log.py, 18] 预期结果: 成功
+[2024-05-11 10:10:29] INFO [log_case_info: case_log.py, 19] 实际结果：{'message': '系统内部错误', 'code': 500}
+[2024-05-11 10:10:29] INFO [send_requset: basecase.py, 90] post json data
+[2024-05-11 10:10:29] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:30] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:30] INFO [log_case_info: case_log.py, 15] 测试用例: login_ok
+[2024-05-11 10:10:30] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/user/login
+[2024-05-11 10:10:30] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName":"student", "password":"123456", "remember": false}
+[2024-05-11 10:10:30] INFO [log_case_info: case_log.py, 18] 预期结果: 成功
+[2024-05-11 10:10:30] INFO [log_case_info: case_log.py, 19] 实际结果：{'message': '系统内部错误', 'code': 500}
+[2024-05-11 10:10:30] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:32] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:32] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:33] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:33] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:34] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:34] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:35] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:35] INFO [log_case_info: case_log.py, 15] 测试用例: login_ok
+[2024-05-11 10:10:35] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/user/login
+[2024-05-11 10:10:35] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName": "student", "password": "123456", "remember": false}
+[2024-05-11 10:10:35] INFO [log_case_info: case_log.py, 18] 预期结果: None
+[2024-05-11 10:10:35] INFO [log_case_info: case_log.py, 19] 实际结果：{"message":"系统内部错误","code":500}
+[2024-05-11 10:10:35] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:36] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:36] INFO [log_case_info: case_log.py, 15] 测试用例: login_err_01
+[2024-05-11 10:10:36] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/user/login
+[2024-05-11 10:10:36] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName": "t", "password": "123456", "remember": false}
+[2024-05-11 10:10:36] INFO [log_case_info: case_log.py, 18] 预期结果: None
+[2024-05-11 10:10:36] INFO [log_case_info: case_log.py, 19] 实际结果：{"message":"系统内部错误","code":500}
+[2024-05-11 10:10:36] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:37] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:37] INFO [log_case_info: case_log.py, 15] 测试用例: login_err_02
+[2024-05-11 10:10:37] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/user/login
+[2024-05-11 10:10:37] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName": "student", "password": "1234562", "remember": false}
+[2024-05-11 10:10:37] INFO [log_case_info: case_log.py, 18] 预期结果: None
+[2024-05-11 10:10:37] INFO [log_case_info: case_log.py, 19] 实际结果：{"message":"系统内部错误","code":500}
+[2024-05-11 10:10:37] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:38] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:38] INFO [log_case_info: case_log.py, 15] 测试用例: login_err_03
+[2024-05-11 10:10:38] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/user/login
+[2024-05-11 10:10:38] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName": "", "password": "123456", "remember": false}
+[2024-05-11 10:10:38] INFO [log_case_info: case_log.py, 18] 预期结果: None
+[2024-05-11 10:10:38] INFO [log_case_info: case_log.py, 19] 实际结果：{"message":"系统内部错误","code":500}
+[2024-05-11 10:10:38] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:39] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:39] INFO [log_case_info: case_log.py, 15] 测试用例: login_err_04
+[2024-05-11 10:10:39] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/user/login
+[2024-05-11 10:10:39] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName": "student", "password": "", "remember": false}
+[2024-05-11 10:10:39] INFO [log_case_info: case_log.py, 18] 预期结果: None
+[2024-05-11 10:10:39] INFO [log_case_info: case_log.py, 19] 实际结果：{"message":"系统内部错误","code":500}
+[2024-05-11 10:10:39] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:40] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+[2024-05-11 10:10:40] INFO [log_case_info: case_log.py, 15] 测试用例: test_reg_err
+[2024-05-11 10:10:40] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/student/user/register
+[2024-05-11 10:10:40] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName": "student", "password": "123456", "userLevel": 2}
+[2024-05-11 10:10:40] INFO [log_case_info: case_log.py, 18] 预期结果: {"code":2,"message":"用户已存在","response":null}
+[2024-05-11 10:10:40] INFO [log_case_info: case_log.py, 19] 实际结果：{"code":500,"message":"系统内部错误","response":null}
+[2024-05-11 10:10:40] INFO [send_requset: basecase.py, 90] post json data
+[2024-05-11 10:10:40] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:41] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:41] INFO [log_case_info: case_log.py, 15] 测试用例: login_err_01
+[2024-05-11 10:10:41] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/user/login
+[2024-05-11 10:10:41] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName":"t", "password":"123456", "remember": false}
+[2024-05-11 10:10:41] INFO [log_case_info: case_log.py, 18] 预期结果: 成功
+[2024-05-11 10:10:41] INFO [log_case_info: case_log.py, 19] 实际结果：{'message': '系统内部错误', 'code': 500}
+[2024-05-11 10:10:41] INFO [send_requset: basecase.py, 90] post json data
+[2024-05-11 10:10:41] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:42] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:42] INFO [log_case_info: case_log.py, 15] 测试用例: login_ok
+[2024-05-11 10:10:42] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/user/login
+[2024-05-11 10:10:42] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName":"student", "password":"123456", "remember": false}
+[2024-05-11 10:10:42] INFO [log_case_info: case_log.py, 18] 预期结果: 成功
+[2024-05-11 10:10:42] INFO [log_case_info: case_log.py, 19] 实际结果：{'message': '系统内部错误', 'code': 500}
+[2024-05-11 10:10:42] ERROR [run: run_all.py, 24] 测试失败,失败用例已保存到文件:D:\apitest26\last_fails.pickle
+[2024-05-11 10:10:43] INFO [run: run_all.py, 28] =========================测试结束============================
+[2024-05-11 10:10:19] INFO [run: run_all.py, 12] ============测试开始=============
+[2024-05-11 10:10:19] INFO [send_requset: basecase.py, 90] post json data
+[2024-05-11 10:10:19] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:20] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:20] INFO [log_case_info: case_log.py, 15] 测试用例: login_err_01
+[2024-05-11 10:10:20] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/user/login
+[2024-05-11 10:10:20] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName":"t", "password":"123456", "remember": false}
+[2024-05-11 10:10:20] INFO [log_case_info: case_log.py, 18] 预期结果: 成功
+[2024-05-11 10:10:20] INFO [log_case_info: case_log.py, 19] 实际结果：{'message': '系统内部错误', 'code': 500}
+[2024-05-11 10:10:20] INFO [send_requset: basecase.py, 90] post json data
+[2024-05-11 10:10:20] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:21] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:21] INFO [log_case_info: case_log.py, 15] 测试用例: login_ok
+[2024-05-11 10:10:21] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/user/login
+[2024-05-11 10:10:21] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName":"student", "password":"123456", "remember": false}
+[2024-05-11 10:10:21] INFO [log_case_info: case_log.py, 18] 预期结果: 成功
+[2024-05-11 10:10:21] INFO [log_case_info: case_log.py, 19] 实际结果：{'message': '系统内部错误', 'code': 500}
+[2024-05-11 10:10:21] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:22] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:22] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:23] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:23] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:24] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:24] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:25] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:25] INFO [log_case_info: case_log.py, 15] 测试用例: login_ok
+[2024-05-11 10:10:25] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/user/login
+[2024-05-11 10:10:25] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName": "student", "password": "123456", "remember": false}
+[2024-05-11 10:10:25] INFO [log_case_info: case_log.py, 18] 预期结果: None
+[2024-05-11 10:10:25] INFO [log_case_info: case_log.py, 19] 实际结果：{"message":"系统内部错误","code":500}
+[2024-05-11 10:10:25] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:26] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:26] INFO [log_case_info: case_log.py, 15] 测试用例: login_err_01
+[2024-05-11 10:10:26] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/user/login
+[2024-05-11 10:10:26] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName": "t", "password": "123456", "remember": false}
+[2024-05-11 10:10:26] INFO [log_case_info: case_log.py, 18] 预期结果: None
+[2024-05-11 10:10:26] INFO [log_case_info: case_log.py, 19] 实际结果：{"message":"系统内部错误","code":500}
+[2024-05-11 10:10:26] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:27] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:27] INFO [log_case_info: case_log.py, 15] 测试用例: login_err_02
+[2024-05-11 10:10:27] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/user/login
+[2024-05-11 10:10:27] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName": "student", "password": "1234562", "remember": false}
+[2024-05-11 10:10:27] INFO [log_case_info: case_log.py, 18] 预期结果: None
+[2024-05-11 10:10:27] INFO [log_case_info: case_log.py, 19] 实际结果：{"message":"系统内部错误","code":500}
+[2024-05-11 10:10:27] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:28] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:28] INFO [log_case_info: case_log.py, 15] 测试用例: login_err_03
+[2024-05-11 10:10:28] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/user/login
+[2024-05-11 10:10:28] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName": "", "password": "123456", "remember": false}
+[2024-05-11 10:10:28] INFO [log_case_info: case_log.py, 18] 预期结果: None
+[2024-05-11 10:10:28] INFO [log_case_info: case_log.py, 19] 实际结果：{"message":"系统内部错误","code":500}
+[2024-05-11 10:10:28] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:29] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:29] INFO [log_case_info: case_log.py, 15] 测试用例: login_err_04
+[2024-05-11 10:10:29] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/user/login
+[2024-05-11 10:10:29] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName": "student", "password": "", "remember": false}
+[2024-05-11 10:10:29] INFO [log_case_info: case_log.py, 18] 预期结果: None
+[2024-05-11 10:10:29] INFO [log_case_info: case_log.py, 19] 实际结果：{"message":"系统内部错误","code":500}
+[2024-05-11 10:10:29] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:30] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+[2024-05-11 10:10:30] INFO [log_case_info: case_log.py, 15] 测试用例: test_reg_err
+[2024-05-11 10:10:30] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/student/user/register
+[2024-05-11 10:10:30] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName": "student", "password": "123456", "userLevel": 2}
+[2024-05-11 10:10:30] INFO [log_case_info: case_log.py, 18] 预期结果: {"code":2,"message":"用户已存在","response":null}
+[2024-05-11 10:10:30] INFO [log_case_info: case_log.py, 19] 实际结果：{"code":500,"message":"系统内部错误","response":null}
+[2024-05-11 10:10:31] INFO [send_requset: basecase.py, 90] post json data
+[2024-05-11 10:10:31] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:32] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:32] INFO [log_case_info: case_log.py, 15] 测试用例: login_err_01
+[2024-05-11 10:10:32] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/user/login
+[2024-05-11 10:10:32] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName":"t", "password":"123456", "remember": false}
+[2024-05-11 10:10:32] INFO [log_case_info: case_log.py, 18] 预期结果: 成功
+[2024-05-11 10:10:32] INFO [log_case_info: case_log.py, 19] 实际结果：{'message': '系统内部错误', 'code': 500}
+[2024-05-11 10:10:32] INFO [send_requset: basecase.py, 90] post json data
+[2024-05-11 10:10:32] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:33] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:33] INFO [log_case_info: case_log.py, 15] 测试用例: login_ok
+[2024-05-11 10:10:33] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/user/login
+[2024-05-11 10:10:33] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName":"student", "password":"123456", "remember": false}
+[2024-05-11 10:10:33] INFO [log_case_info: case_log.py, 18] 预期结果: 成功
+[2024-05-11 10:10:33] INFO [log_case_info: case_log.py, 19] 实际结果：{'message': '系统内部错误', 'code': 500}
+[2024-05-11 10:10:33] ERROR [run: run_all.py, 24] 测试失败,失败用例已保存到文件:D:\apitest26\last_fails.pickle
+[2024-05-11 10:10:34] INFO [run: run_all.py, 28] =========================测试结束============================
+[2024-05-11 10:10:48] INFO [<module>: config.py, 64] 接口测试
+[2024-05-11 10:10:22] INFO [run: run_all.py, 12] ============测试开始=============
+[2024-05-11 10:10:22] INFO [send_requset: basecase.py, 90] post json data
+[2024-05-11 10:10:22] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:23] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:23] INFO [log_case_info: case_log.py, 15] 测试用例: login_err_01
+[2024-05-11 10:10:23] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/user/login
+[2024-05-11 10:10:23] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName":"t", "password":"123456", "remember": false}
+[2024-05-11 10:10:23] INFO [log_case_info: case_log.py, 18] 预期结果: 成功
+[2024-05-11 10:10:23] INFO [log_case_info: case_log.py, 19] 实际结果：{'message': '系统内部错误', 'code': 500}
+[2024-05-11 10:10:23] INFO [send_requset: basecase.py, 90] post json data
+[2024-05-11 10:10:23] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:24] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:24] INFO [log_case_info: case_log.py, 15] 测试用例: login_ok
+[2024-05-11 10:10:24] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/user/login
+[2024-05-11 10:10:24] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName":"student", "password":"123456", "remember": false}
+[2024-05-11 10:10:24] INFO [log_case_info: case_log.py, 18] 预期结果: 成功
+[2024-05-11 10:10:24] INFO [log_case_info: case_log.py, 19] 实际结果：{'message': '系统内部错误', 'code': 500}
+[2024-05-11 10:10:24] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:25] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:25] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:26] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:26] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:27] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:27] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:28] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:28] INFO [log_case_info: case_log.py, 15] 测试用例: login_ok
+[2024-05-11 10:10:28] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/user/login
+[2024-05-11 10:10:28] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName": "student", "password": "123456", "remember": false}
+[2024-05-11 10:10:28] INFO [log_case_info: case_log.py, 18] 预期结果: None
+[2024-05-11 10:10:28] INFO [log_case_info: case_log.py, 19] 实际结果：{"message":"系统内部错误","code":500}
+[2024-05-11 10:10:28] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:29] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:29] INFO [log_case_info: case_log.py, 15] 测试用例: login_err_01
+[2024-05-11 10:10:29] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/user/login
+[2024-05-11 10:10:29] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName": "t", "password": "123456", "remember": false}
+[2024-05-11 10:10:29] INFO [log_case_info: case_log.py, 18] 预期结果: None
+[2024-05-11 10:10:29] INFO [log_case_info: case_log.py, 19] 实际结果：{"message":"系统内部错误","code":500}
+[2024-05-11 10:10:29] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:30] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:30] INFO [log_case_info: case_log.py, 15] 测试用例: login_err_02
+[2024-05-11 10:10:30] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/user/login
+[2024-05-11 10:10:30] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName": "student", "password": "1234562", "remember": false}
+[2024-05-11 10:10:30] INFO [log_case_info: case_log.py, 18] 预期结果: None
+[2024-05-11 10:10:30] INFO [log_case_info: case_log.py, 19] 实际结果：{"message":"系统内部错误","code":500}
+[2024-05-11 10:10:30] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:31] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:31] INFO [log_case_info: case_log.py, 15] 测试用例: login_err_03
+[2024-05-11 10:10:31] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/user/login
+[2024-05-11 10:10:31] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName": "", "password": "123456", "remember": false}
+[2024-05-11 10:10:31] INFO [log_case_info: case_log.py, 18] 预期结果: None
+[2024-05-11 10:10:31] INFO [log_case_info: case_log.py, 19] 实际结果：{"message":"系统内部错误","code":500}
+[2024-05-11 10:10:31] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:32] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:32] INFO [log_case_info: case_log.py, 15] 测试用例: login_err_04
+[2024-05-11 10:10:32] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/user/login
+[2024-05-11 10:10:32] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName": "student", "password": "", "remember": false}
+[2024-05-11 10:10:32] INFO [log_case_info: case_log.py, 18] 预期结果: None
+[2024-05-11 10:10:32] INFO [log_case_info: case_log.py, 19] 实际结果：{"message":"系统内部错误","code":500}
+[2024-05-11 10:10:32] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:33] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+[2024-05-11 10:10:33] INFO [log_case_info: case_log.py, 15] 测试用例: test_reg_err
+[2024-05-11 10:10:33] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/student/user/register
+[2024-05-11 10:10:33] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName": "student", "password": "123456", "userLevel": 2}
+[2024-05-11 10:10:33] INFO [log_case_info: case_log.py, 18] 预期结果: {"code":2,"message":"用户已存在","response":null}
+[2024-05-11 10:10:33] INFO [log_case_info: case_log.py, 19] 实际结果：{"code":500,"message":"系统内部错误","response":null}
+[2024-05-11 10:10:33] INFO [send_requset: basecase.py, 90] post json data
+[2024-05-11 10:10:33] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:34] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:34] INFO [log_case_info: case_log.py, 15] 测试用例: login_err_01
+[2024-05-11 10:10:34] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/user/login
+[2024-05-11 10:10:34] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName":"t", "password":"123456", "remember": false}
+[2024-05-11 10:10:34] INFO [log_case_info: case_log.py, 18] 预期结果: 成功
+[2024-05-11 10:10:34] INFO [log_case_info: case_log.py, 19] 实际结果：{'message': '系统内部错误', 'code': 500}
+[2024-05-11 10:10:34] INFO [send_requset: basecase.py, 90] post json data
+[2024-05-11 10:10:34] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.43:8000
+[2024-05-11 10:10:35] DEBUG [_make_request: connectionpool.py, 549] http://192.168.55.43:8000 "POST /api/user/login HTTP/1.1" 200 None
+[2024-05-11 10:10:35] INFO [log_case_info: case_log.py, 15] 测试用例: login_ok
+[2024-05-11 10:10:35] INFO [log_case_info: case_log.py, 16] url: http://192.168.55.43:8000/api/user/login
+[2024-05-11 10:10:35] INFO [log_case_info: case_log.py, 17] 请求参数: {"userName":"student", "password":"123456", "remember": false}
+[2024-05-11 10:10:35] INFO [log_case_info: case_log.py, 18] 预期结果: 成功
+[2024-05-11 10:10:35] INFO [log_case_info: case_log.py, 19] 实际结果：{'message': '系统内部错误', 'code': 500}
+[2024-05-11 10:10:35] ERROR [run: run_all.py, 24] 测试失败,失败用例已保存到文件:D:\apitest26\last_fails.pickle
+[2024-05-11 10:10:35] INFO [run: run_all.py, 29] =========================测试结束============================
